@@ -1,11 +1,12 @@
 # include <stdio.h>
 # include <conio.h>
 
+# include "bubbleh.h"
 # include "bubblefunctions.c"
 
 int main(){
     s16 n;
-    printf("Enter the length of an array :\n");
+    printf("Enter the length of an array :");
     scanf("%d",&n);
     int a[n];
     for (s16 i = 0; i < n; i++){
