@@ -8,24 +8,15 @@ int main()
     u5 T = testcases();
     while (T--)
     {
-        u5 a, b, c;
-        u5 count = 0, sticks = 0;
+        u5 a, b, c, count = 0, sticks = 0;
         printf("Enter both the numbers: \n");
         scanf("%d %d", &a, &b);
         c = a + b;
-        do
-        {
-            c /= 10;
-            ++count;
-        } while (c != 0);
-        
+        count = countdigits(c,count);        
         c = a + b;
         u5 array[count];
-        for (int i = 0; i < count; i++)
-        {
-            array[i] = c % 10;
-            c /= 10;
-        }
+        intconverttoarray(array,count,c);
+        reversingarray(array,count);
         printingarray(array,count);
         for (int i = 0; i < count; i++)
         {
