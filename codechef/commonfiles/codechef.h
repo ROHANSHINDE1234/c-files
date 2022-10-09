@@ -17,5 +17,9 @@ typedef int u5;
 
 int testcases();
 void printingarray(u5 *array,u5 n);
+int reversingarray(u5 *array, u5 n);
+int intconverttoarray(u5 *array, u5 count, u5 n);
+int countdigits(u5 a, u5 count);
+int inputarray(u5 *array,u5 n);
 
 #endif
