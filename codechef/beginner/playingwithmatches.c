@@ -8,12 +8,11 @@ int main()
     u5 T = testcases();
     while (T--)
     {
-        u5 a, b, c, count = 0, sticks = 0;
-        printf("Enter both the numbers: \n");
-        scanf("%d %d", &a, &b);
-        c = a + b;
+        u5 a, b, c, count = 0, sticks = 0, ipary[2];
+        inputarray(ipary,2);
+        c = ipary[0]+ipary[1];
         count = countdigits(c,count);        
-        c = a + b;
+        c = ipary[0]+ipary[1];
         u5 array[count];
         intconverttoarray(array,count,c);
         reversingarray(array,count);
