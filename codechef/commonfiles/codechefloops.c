@@ -63,6 +63,20 @@ int inputarray(u5 *array,u5 n)
     
 }
 
+/************************************Take a array matrix**************************************/
+
+u5 inputmatrix(u5 *matrix, u5 n, u5 m)
+{
+    for (u5 i = 0; i < n; i++)
+    {
+        for (u5 j = 0; j < m; j++)
+        {
+            scanf("%d", &matrix);
+        }
+    }
+}
+
+
 /*************************************do while LOOPS******************************************
 *****************************All do while loops are in this section**************************/
 
