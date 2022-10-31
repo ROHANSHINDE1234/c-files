@@ -7,27 +7,12 @@ int main()
     u5 T = testcases();
     while (T--)
     {
-        u5 ipary[3], a, b, c;
-        inputarray(ipary, 3);
-        a = ipary[0] + ipary[1];
-        b = ipary[2] + ipary[1];
-        c = ipary[0] + ipary[2];
-        if (a % 2 == 0)
-        {
-            printf("Yes\n");
-        }
-        else if (b % 2 == 0)
-        {
-            printf("Yes\n");
-        }
-        else if (c % 2 == 0)
-        {
-            printf("Yes\n");
-        }
+        u5 a,b,c;
+        scanf("%d%d%d",&a,&b,&c);
+        if((a+b)%2==1||(a+c)%2==1||(b+c)%2==1)
+        printf("YES\n");
         else
-        {
-            printf("No\n");
-        }
+        printf("NO\n");
     }
     return 0;
 }
