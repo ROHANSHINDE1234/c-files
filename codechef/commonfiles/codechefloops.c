@@ -76,6 +76,17 @@ u5 inputmatrix(u5 *matrix, u5 n, u5 m)
     }
 }
 
+/************************************Sum of given number**************************************/
+
+u5 sumofnnumbers(u5 a)
+{
+    u5 sum = 0;
+    for (u5 i = 0; i <= a; i++)
+    {
+        sum = sum + i;
+    }
+    return sum;
+}
 
 /*************************************do while LOOPS******************************************
 *****************************All do while loops are in this section**************************/
