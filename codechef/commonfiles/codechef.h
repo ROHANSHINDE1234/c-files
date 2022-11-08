@@ -15,11 +15,13 @@ typedef int u5;
 // typedef long unsigned int u64;		// long long not supported in Borland, hence used long
 // typedef double f64;
 
-int testcases();
-void printingarray(u5 *array,u5 n);
-int reversingarray(u5 *array, u5 n);
-int intconverttoarray(u5 *array, u5 count, u5 n);
-int countdigits(u5 a, u5 count);
-int inputarray(u5 *array,u5 n);
+u5 testcases();
+u6 printingarray(u5 *array,u5 n);
+u5 reversingarray(u5 *array, u5 n);
+u5 intconverttoarray(u5 *array, u5 count, u5 n);
+u5 countdigits(u5 a, u5 count);
+u5 inputarray(u5 *array,u5 n);
+u5 inputmatrix(u5 *matrix,u5 n,u5 m);
+u5 sumofnnumbers(u5 a);
 
 #endif
