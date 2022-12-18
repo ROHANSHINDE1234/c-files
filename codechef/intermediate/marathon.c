@@ -9,6 +9,7 @@ int main()
         u5 ipary[5];
         inputarray(ipary,5);
         /// Sorry
+        //Sorry
     }
     return 0;
 }
