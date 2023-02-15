@@ -1,18 +1,54 @@
 #include <stdio.h>
-#include "codechef.h"
-int main()
-{
-    u5 T = testcases();
-    while (T--)
-    {
-        u5 ipary[1];
-        inputarray(ipary,1);
-        u1 ipchar[ipary[0]];
-        for (u5 i = 0; i < ipary[0]; i++)
-        //{
-            printf("%s\n",ipchar);
-        //}
-        
-    }
-    return 0;
+
+int main(void) {
+	
+	int T,flag=0;
+	scanf("%d\n",&T);
+	
+	for(int j=0;j<T;j++)
+	{
+	    int N;
+	    char s[100];
+	    scanf("%d",&N);
+	    scanf("%s",&s);
+	    int i=0,count =0;;
+	    while(i<N)
+	    {
+	    int ch = s[i];
+	        if(ch=='a' ||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+	        {
+	   
+	            
+	             count=0;
+	            flag=0;
+	           
+	        }
+	        
+	        else
+	        {
+	           count++;
+	            if(count >=4)
+	            {
+	                flag=1;
+	                break;
+	        	}
+	        	else
+	        	{
+	        	    flag=0;
+	        	}
+	    	}
+	     i++;
+	}
+	
+	if(flag==1)
+	{
+	    printf("NO\n");
+	}
+	
+	else
+	{
+	    printf("YES\n");
+	}
+	
+}
 }
