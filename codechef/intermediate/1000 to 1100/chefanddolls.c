@@ -9,6 +9,15 @@ int main()
         inputarray(ipary, 1);
         u5 ipary1[ipary[0]];
         inputarray(ipary1, ipary[0]);
+        for (u5 i = 0; i < ipary[0]; i++)
+        {
+            for (u5 j = 0; j < ipary[0]; j++)
+            {
+                if (ipary1[i] == ipary1[j])
+                {
+                }
+            }
+        }
     }
 }
 /*
