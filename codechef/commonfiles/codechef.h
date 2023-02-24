@@ -4,6 +4,7 @@
 typedef char u1;										// typedef bool u1 (for Borland, needs c++), hence used char here
 typedef float f32;
 typedef int u5;
+typedef long long int l1;
 
 // typedef signed char s8;
 // typedef unsigned char u8;
