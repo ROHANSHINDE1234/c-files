@@ -12,3 +12,6 @@ int main()
     }
     return 0;
 }
+/*
+chef takes 3 inputs
+*/
