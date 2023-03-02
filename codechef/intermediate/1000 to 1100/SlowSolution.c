@@ -16,5 +16,6 @@ int main()
 chef takes 3 inputs
 still understanding question
 still understanding question
+find n2 of n and compare it with t
 
 */
