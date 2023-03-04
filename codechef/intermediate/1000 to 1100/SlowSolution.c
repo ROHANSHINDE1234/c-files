@@ -6,9 +6,10 @@ int main()
     u5 T = testcases();
     while (T--)
     {
-        u5 ipary[3];
+        u5 ipary[3],a ,b;
         inputarray(ipary, 3);
-        
+        a=ipary[2]/ipary[1];
+        b=ipary[2]%ipary[1];
     }
     return 0;
 }
