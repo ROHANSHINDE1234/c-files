@@ -6,10 +6,22 @@ int main()
     u5 T = testcases();
     while (T--)
     {
-        u5 ipary[3],a ,b;
+        u5 ipary[3],a=0;
         inputarray(ipary, 3);
-        a=ipary[2]/ipary[1];
-        b=ipary[2]%ipary[1];
+        while (ipary[0]-- && ipary[2] > 0)
+        {
+            if (ipary[2] > ipary[1])
+            {
+                a = a + ipary[1] * ipary[1];
+                ipary[2] = ipary[2] - ipary[1];
+            }
+            else
+            {
+                a = a + ipary[2];
+                ipary[2] = 0;
+            }
+        }
+        printf("%d\n", a);
     }
     return 0;
 }
