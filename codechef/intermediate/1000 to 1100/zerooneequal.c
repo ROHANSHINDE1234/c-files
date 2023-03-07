@@ -10,3 +10,8 @@ int main()
     }
     return 0;
 }
+/*
+each line will contain 1 and 0 according to the number feed in each test case and
+number of 01 and 10 combinations should be same
+and atleast one 0 or 1 should be present
+*/
