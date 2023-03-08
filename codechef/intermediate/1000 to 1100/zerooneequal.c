@@ -7,6 +7,18 @@ int main()
     {
         u5 ipary[1];
         inputarray(ipary,1);
+        for (u5 i = 0; i < ipary[0]; i++)
+        {
+            if ((i == 0) || (i == ipary[0] - 1))
+            {
+                printf("1");
+            }
+            else
+            {
+                printf("0");
+            }
+        }
+        printf("\n");
     }
     return 0;
 }
