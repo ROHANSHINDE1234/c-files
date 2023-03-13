@@ -8,7 +8,9 @@ we are givem B and need to decide wether A exist or not.
 4) Then code accordingly. // 09/03/2023
 5) Different cases in which it is not possible is 10 and 100 according to the problem given.
 6) For now I have intially decided that 1 followed by single 0 or 1 followed by two zero's 
-   combination is not possible
+   combination is not possible // 12/03/23
+7) Looked at solution s way complicated. // 13/03/23
+
 */
 #include<stdio.h>
 #include"codechef.h"
