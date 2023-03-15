@@ -3,4 +3,8 @@
 Alogrithm is very important.
 Shapes play a important role in understanding the algorithm.
 
+15-03-2023
+stdio.h -> standard input output library where all printf and scanf functions are alrrady defined.
+Study different types of error messages in the code which helps while debugging bigger problems in programs.
+
 */
