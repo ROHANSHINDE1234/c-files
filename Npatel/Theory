@@ -2,9 +2,17 @@
 14-03-2023
 Alogrithm is very important.
 Shapes play a important role in understanding the algorithm.
-
 15-03-2023
-stdio.h -> standard input output library where all printf and scanf functions are alrrady defined.
+stdio.h -> standard input output library where all printf and scanf library functions are already defined.
 Study different types of error messages in the code which helps while debugging bigger problems in programs.
-
+16-03-2023
+There are 256 characters in c. %d, %f are format specifiers. Logica operators AND OR and NOT.
+if(!((a%3)==0)) this gives output as if A is not divisible by 3.
+int a;
+while(!(a==-1))
+{
+  scanf("%d",a)
+}//user enters a number and if that number is suppose 5 then (a == -1) condition gets false ie 0 but ! sign makes 
+//it 1 and user again asks for another number if -1 is entered then conditon becomes true i.e 1 but ! sign makes 
+// it 0 and while loop gets terminated.
 */
