@@ -15,4 +15,17 @@ while(!(a==-1))
 }//user enters a number and if that number is suppose 5 then (a == -1) condition gets false ie 0 but ! sign makes 
 //it 1 and user again asks for another number if -1 is entered then conditon becomes true i.e 1 but ! sign makes 
 // it 0 and while loop gets terminated.
+17-03-2023
+Type	Range	Size (in bytes)
+unsigned char	0 to 255	1
+signed char or char	-128 to +127	1
+unsigned int	0 to 65535	2
+signed int or int	-32,768 to +32767	2
+unsigned short int	0 to 65535	2
+signed short int or short int	-32,768 to +32767	2
+unsigned long int	0 to +4,294,967,295	4
+signed long int or long int	-2,147,483,648 to +2,147,483,647	4
+long double	3.4E-4932 to 1.1E+4932	10
+double	1.7E-308 to 1.7E+308	8
+float	3.4E-38 to 3.4E+38	4
 */
