@@ -29,5 +29,6 @@ long double	3.4E-4932 to 1.1E+4932	10
 double	1.7E-308 to 1.7E+308	8
 float	3.4E-38 to 3.4E+38	4
 18-03-2023
-
+cyclic exchange
+Read a sequence of numbers until a-1 Output the length of longest contiguous increasing sub sequence.
 */
