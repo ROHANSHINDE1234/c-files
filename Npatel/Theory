@@ -36,4 +36,9 @@ first take the first number check wether it is -1 or not if it is -1 exit the se
 if it is other than -1 then compare that number with next number and continue the same the while 
 simultaneously keeping the count of the length of the string and comparng if length with other 
 sequence.
+20-03-2023
+Modbus RS 485 Is Half-Duplex and Indicates Values Using Differences in Voltage. 
+Modbus RTU RS485 interface is similar, but different, from RS-232. 
+This two-wire, multi-point connection communicates serial data by indicating values 
+by sending different voltages across the two wires.
 */
