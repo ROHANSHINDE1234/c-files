@@ -41,4 +41,7 @@ Modbus RS 485 Is Half-Duplex and Indicates Values Using Differences in Voltage.
 Modbus RTU RS485 interface is similar, but different, from RS-232. 
 This two-wire, multi-point connection communicates serial data by indicating values 
 by sending different voltages across the two wires.
+21-03-2023
+Decoupling capacitors
+
 */
