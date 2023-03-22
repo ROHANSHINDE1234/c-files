@@ -43,6 +43,7 @@ This two-wire, multi-point connection communicates serial data by indicating val
 by sending different voltages across the two wires.
 21-03-2023
 Decoupling capacitors
-
-
+22-03-2023
+Learn how to use boundary cases properly.
+do while loop function is executed atleast once. Stick to only one type of loop while or dowhile you will be confused.
 */
