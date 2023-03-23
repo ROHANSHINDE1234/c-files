@@ -46,4 +46,7 @@ Decoupling capacitors
 22-03-2023
 Learn how to use boundary cases properly.
 do while loop function is executed atleast once. Stick to only one type of loop while or dowhile you will be confused.
+23-03-2023
+Byte is an immutable value type that represents unsigned integers with values that range from 0 (which is represented by the Byte.
+MinValue constant) to 255 (which is represented by the Byte.MaxValue constant). 
 */
