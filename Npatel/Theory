@@ -53,4 +53,8 @@ MinValue constant) to 255 (which is represented by the Byte.MaxValue constant).
 continue and break condition.
 25-03-2023
 1 byte equals 4 bits
+26-03-2023
+Here 
+typedef float f32;
+f32 means float can store upto 32 bits of memory
 */
