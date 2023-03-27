@@ -57,4 +57,7 @@ continue and break condition.
 Here 
 typedef float f32;
 f32 means float can store upto 32 bits of memory
+27-03-2023
+typedef double f64;
+double can store 64 bits
 */
