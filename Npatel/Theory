@@ -60,4 +60,12 @@ f32 means float can store upto 32 bits of memory
 27-03-2023
 typedef double f64;
 double can store 64 bits
+28-03-2023
+Decoupling capacitor 
+This capacitor needs to be very close to the microcontroller and and it it very useful to block all the ripple voltage
+This capacitor needs to be preferably of ceramic type and the capacitor follows the resonance graphs that means the 
+though it is a ceramic capacitor the capacito still contains the small amount of internal inductance and resistor
+and when these resistors and caacitors are used they show variable resistance according to the frequency applied so
+at that point of the graph where peak is minimum choose that capacitor because it varies when different capacitors are used 
+of same pacakage.
 */
