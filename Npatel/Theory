@@ -69,4 +69,8 @@ and when these resistors and caacitors are used they show variable resistance ac
 at that point of the graph where peak is minimum choose that capacitor because it varies when different capacitors are used 
 of same pacakage.
 Flyback convertors are the basics of smps design.
+29-03-2023
+In fly wheel topology the dc signel is transfered and connected to dc signal and the via help of mosfet and energy is transfered 
+via transformer voltage is decided via turns ratio.
+find the minimum relay restoring time to decide the value needs to be assigned for the ladder for testing the relays.
 */
