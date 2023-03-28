@@ -68,4 +68,5 @@ though it is a ceramic capacitor the capacito still contains the small amount of
 and when these resistors and caacitors are used they show variable resistance according to the frequency applied so
 at that point of the graph where peak is minimum choose that capacitor because it varies when different capacitors are used 
 of same pacakage.
+Flyback convertors are the basics of smps design.
 */
