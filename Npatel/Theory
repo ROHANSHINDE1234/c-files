@@ -73,4 +73,5 @@ Flyback convertors are the basics of smps design.
 In fly wheel topology the dc signel is transfered and connected to dc signal and the via help of mosfet and energy is transfered 
 via transformer voltage is decided via turns ratio.
 find the minimum relay restoring time to decide the value needs to be assigned for the ladder for testing the relays.
+double size is 10 bytes
 */
