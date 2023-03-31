@@ -76,5 +76,6 @@ find the minimum relay restoring time to decide the value needs to be assigned f
 double size is 10 bytes
 30-03-2023
 features associated with 8 bit pic microcontroller
-
+31-03-2023
+Modbus communication protocol
 */
