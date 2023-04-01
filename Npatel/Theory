@@ -78,4 +78,10 @@ double size is 10 bytes
 features associated with 8 bit pic microcontroller
 31-03-2023
 Modbus communication protocol
+01-04-2023
+Modbus is a serial communication protocol developed by Modicon published by Modicon® in 1979 for use with its programmable logic controllers (PLCs). 
+In simple terms, it is a method used for transmitting information over serial lines between electronic devices. 
+The device requesting the information is called the Modbus Client and the devices supplying information are Modbus Servers. 
+In a standard Modbus network, there is one Client and up to 247 Servers, each with a unique Server Address from 1 to 247. 
+The Client can also write information to the Servers.
 */
