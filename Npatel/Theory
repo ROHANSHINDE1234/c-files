@@ -84,4 +84,40 @@ In simple terms, it is a method used for transmitting information over serial li
 The device requesting the information is called the Modbus Client and the devices supplying information are Modbus Servers. 
 In a standard Modbus network, there is one Client and up to 247 Servers, each with a unique Server Address from 1 to 247. 
 The Client can also write information to the Servers.
+03-04-2023
+Embedded C features
+1) Efficient memory management
+2) Timming centric operation
+3) Direction hardware/ IO control
+4) code size constraints
+5) Optimized execution
+
+
+Data types in c
+1) Integer types
+2) Floating points
+3) Enumerated types
+4) Derived types
+5) Void types
+
+1 Byte consists of 8 bits
+
+
+Char 1 byte -128 to127 or 0 to 255
+unsigned char 1 Byte 0 to 255
+signed char 1 Byte -128 to 127
+int 2 or 4 bytes -32768 to 32767 or -2147483648 to 2147483647
+unsigned int 2 or 4 bytes 0 to 65535 or 0 to 4294967295
+short 2 bytes -32768 to 32767
+unsigned short 2 bytes 0 to 65535
+long 4 bytes -2147483648 to 2147483647
+unsigned long 4 bytes 0 to 4294967295
+
+
+
+Different operators in C 
+logical and, or, not
+bitwise <<, >>, |, &, ^, ~
+arimethic +, -, .....
+Relational <, </, >, =>, ==, !=
 */
