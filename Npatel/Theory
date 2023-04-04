@@ -129,4 +129,8 @@ Integrated IC or Application Specific IC ASIC
 Verson Control
 Keeping History of changes in software is important.
 
+Overflow: An integer overflow occurs when you attempt to store inside an integer variable a value that 
+is larger than the maximum value the variable can hold. The C standard defines this situation as undefined behavior 
+(meaning that anything might happen).
+
 */
