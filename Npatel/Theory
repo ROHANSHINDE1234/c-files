@@ -120,4 +120,13 @@ logical and, or, not
 bitwise <<, >>, |, &, ^, ~
 arimethic +, -, .....
 Relational <, </, >, =>, ==, !=
+04-04-2023
+Software Configuration Management
+Microcontroller chips are of 2 types 
+Integrated IC or Application Specific IC ASIC
+
+
+Verson Control
+Keeping History of changes in software is important.
+
 */
