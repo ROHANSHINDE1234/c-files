@@ -133,4 +133,13 @@ Overflow: An integer overflow occurs when you attempt to store inside an integer
 is larger than the maximum value the variable can hold. The C standard defines this situation as undefined behavior 
 (meaning that anything might happen).
 
+05-04-2023
+EABI - Embedded Application BinaryInterface
+Provides details on how binary must be compiled and interfaced with the platform components
+-Register used / word size
+-Code / Data storage requirement
+-Addressing modes
+-Calling conventions
+-Helper functions & libraries
+
 */
