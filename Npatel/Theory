@@ -141,5 +141,10 @@ Provides details on how binary must be compiled and interfaced with the platform
 -Addressing modes
 -Calling conventions
 -Helper functions & libraries
+06-04-2023
+Word size and datatype 
+CISC - Complex instruction set computer
+RISC - Reduced instruction set computer
+ARM - Advanced RISC machine
 
 */
