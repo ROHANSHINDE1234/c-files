@@ -147,4 +147,8 @@ CISC - Complex instruction set computer
 RISC - Reduced instruction set computer
 ARM - Advanced RISC machine
 
+07-04-2023
+Pointers in C
+In C we get to store address of that variable known as pointers.
+
 */
