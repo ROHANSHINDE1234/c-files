@@ -150,5 +150,12 @@ ARM - Advanced RISC machine
 07-04-2023
 Pointers in C
 In C we get to store address of that variable known as pointers.
+08-04-2023
+int a = 1025
+byte3    byte2    byte1    byte0
+00000000 00000000 00000100 00000001
+203      202      201      200
+MSB - left most bit represents the sign of the integer 0 for positive 1 for negative
+reset 31 bits are used to store value
 
 */
