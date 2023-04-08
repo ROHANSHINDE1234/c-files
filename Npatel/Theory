@@ -157,5 +157,10 @@ byte3    byte2    byte1    byte0
 203      202      201      200
 MSB - left most bit represents the sign of the integer 0 for positive 1 for negative
 reset 31 bits are used to store value
+Application's memory
+Heap 
+Stack 
+Static/Global 
+Code(TEXT)
 
 */
