@@ -163,4 +163,7 @@ Stack
 Static/Global 
 Code(TEXT)
 
+10-04-2023
+Preprocessor -> Compiler -> Assembler -> Linker -> Locator
+
 */
