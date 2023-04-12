@@ -168,4 +168,7 @@ Preprocessor -> Compiler -> Assembler -> Linker -> Locator
 
 11-04-2023
 Linker files and Maker files
+
+12-04-2023
+Memory Architecture
 */
