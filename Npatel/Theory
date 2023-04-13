@@ -171,4 +171,14 @@ Linker files and Maker files
 
 12-04-2023
 Memory Architecture
+
+13-04-2023
+Memories of an embedded systems
+- Code memory (Flash)
+- Data memory (SRAM)
+- Register memory (internal to chip)
+- External memory If applicable)
+
+Cache used to decrease access latency to lower / slower memories.
+
 */
