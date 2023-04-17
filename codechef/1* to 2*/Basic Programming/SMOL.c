@@ -7,15 +7,13 @@ int main(void) {
     {
         int N, K;
         scanf("%d %d\n",&N,&K);
-        if(N<K)
+        if(K==0)
         {
             printf("%d\n",N);
         }
         else 
         {
-            int a;
-            a = (N/K)*K;
-            printf("%d\n",N-a);
+            printf("%d\n",N%K);
         }
     }
     
