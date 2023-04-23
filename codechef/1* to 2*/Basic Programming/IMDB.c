@@ -30,8 +30,8 @@ u4 main(void) {
 	{
 	    u4 ipary[2];
 	    inputarray(ipary,2);
-	    u4 ipary1;
-	    inputmatrix(ipary1,ipary[0],2);
+	    u4 ipary1[ipary[0]][2];
+	    inputmatrix(*ipary1,ipary[0],2);
 	}
 	return 0;
 }
