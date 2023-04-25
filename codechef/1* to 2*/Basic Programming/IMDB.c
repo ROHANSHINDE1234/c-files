@@ -1,37 +1,25 @@
 #include <stdio.h>
-typedef int u4;
-u4 inputarray(u4 *array, u4 n)
-{
-    for(u4 i;i< n;i++)
-    {
-        scanf("%d",&array[i]);
-    }
-}
-u4 inputmatrix(u4 *matrix, u4 m, u4 n)
-{
-    for(u4 i=0;i<m;i++)
-    {
-        for(u4 j =0;j<n;j++)
-        {
-            scanf("%d",&matrix);
-        }
-    }
-}
-u4 testcases()
-{
-    u4 t;
-    scanf("%d",&t);
-    return t;
-}
-u4 main(void) {
-	u4 T;
-	T = testcases();
+
+int main(void) {
+	int T;
+	scanf("%d",&T);
 	while(T--)
 	{
-	    u4 ipary[2];
-	    inputarray(ipary,2);
-	    u4 ipary1[ipary[0]][2];
-	    inputmatrix(*ipary1,ipary[0],2);
+	    int N,X,S,R;
+	    scanf("%d %d",&N,&X);
+	    int a=0;
+	    for(int i=1;i<=N;i++)
+	    {
+	        scanf("%d %d",&S,&R);
+	        if(S<=X)
+	        {
+	            if(R>a)
+	            {
+	                a=R;
+	            }
+	        }
+	    }
+	    printf("%d\n",a);
 	}
 	return 0;
 }
