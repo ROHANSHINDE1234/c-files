@@ -12,7 +12,7 @@ int main(void) {
         {
             scanf("%d",&a[i]);
         }
-        
+	int max = 0;
     }
 	// your code goes here
 	return 0;
