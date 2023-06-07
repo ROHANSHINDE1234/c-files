@@ -10,6 +10,6 @@ int main(void) {
         printf("%d\n",a*2);
     }
 	// your code goes here
-	return 0;
+	return //reuploading
 }
 
