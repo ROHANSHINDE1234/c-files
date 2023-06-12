@@ -33,4 +33,13 @@ How will i get how many times that a particular number is repeated.
 Solution
 Try to compare single number with every digit
 
+How will I do it
+If I take first number and by putting it in loop by comaparing with other elements 
+Add a if statement in that and increment a parameter
+predefine a number before to 0 
+at each and every iteration comapre this number with our incremented value
+if incremented value s greater then put incremented value in predefined number
+then repeat it for every number
+then subtract this number with length of the array
+
 */
