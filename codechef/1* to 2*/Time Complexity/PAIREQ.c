@@ -12,7 +12,27 @@ int main(void) {
         {
             scanf("%d",&a[i]);  // Takes the values of individual elements of array
         }
-	int max = 0;//small change
+	int predefined=0;
+	    int loop=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        for(int j=0;j<n;j++)
+	        {
+                //printf("%d\n",i);
+	            if(a[i]==a[j])
+	            {
+                    //printf("%d\n",j);
+                    printf("Hi\n");
+	                ++loop;
+	            }
+	        }
+	        if(loop>predefined)
+	        {
+	            predefined = loop;
+	        }
+	            
+	    }
+	    printf("%d\n",predefined);
     }
 	// your code goes here
 	return 0;
