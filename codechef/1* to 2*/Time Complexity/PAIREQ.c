@@ -30,9 +30,9 @@ int main(void) {
 	        {
 	            predefined = loop;
 	        }
-	            
+	        loop=0;   
 	    }
-	    printf("%d\n",predefined);
+	    printf("%d\n",n-predefined);
     }
 	// your code goes here
 	return 0;
@@ -62,4 +62,9 @@ if incremented value s greater then put incremented value in predefined number
 then repeat it for every number
 then subtract this number with length of the array
 
+The problem is for every number there will be one same so it enters that
+is equal to it
+So it keeps adding up.
+Therefore I made it zero again at start of the operation and the problem 
+was solved.
 */
