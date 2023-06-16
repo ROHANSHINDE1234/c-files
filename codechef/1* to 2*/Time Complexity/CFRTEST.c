@@ -12,6 +12,19 @@ int main(void) {
         {
             scanf("%d",&a[i]);
         }
+	for(int i=0;i<n;i++)
+        {
+            for(int j=i+1;j<n;j++)
+            {
+                if(a[i]==a[j])
+                {
+                    ++count;
+                    break;
+                }
+            }
+        }
+        printf("%d\n",n-count);
+        
         
     }
 	// your code goes here
@@ -34,5 +47,10 @@ or else subtract the number from the sum total.
 Where I have stuck 
 I don't know how to find out total number of distint numbers from 
 an array.
+
+What I started to do
+Firstly i have taken all the required data from the user 
+then to find distint number from the numbers wich user entered in 2 line
+we will compare 1 number with all next numbers and repeat the process
 
 */
