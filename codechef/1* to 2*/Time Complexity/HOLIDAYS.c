@@ -24,7 +24,7 @@ int main(void) {
                 }
             }
         }
-        temp=0;
+        temp=1;
         for(int i=0;i<n;i++)
         {
             if(a[0]<w)
@@ -32,6 +32,7 @@ int main(void) {
                 i=i+1;
                 a[0]=a[0]+a[i];
                 ++temp;
+		i=i-1;
             }
         }
         printf("%d\n",n-temp);
@@ -60,4 +61,9 @@ I don't know how to put numbers in decending order
 How to do
 we can just start from the 2 number and compare it with its left digit 
 or digits and find greatest and push it at right end.
+
+After doing all these things code went wrong.
+I know that array is properly arranged as required in decending order
+In my code i am not consedering 1 day to add i don't know how to do it
+Finally did it
 */
