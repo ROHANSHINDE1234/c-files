@@ -19,9 +19,9 @@
 
 /************************************To print the given array*********************************/ 
 
-void printingarray(u5 *array,u5 n){
+void printingarray(u32 *array,u32 n){
     printf("[ ");
-    for (u5 i = 0; i < n; i++){
+    for (u32 i = 0; i < n; i++){
         printf("%d ",array[i]);
     }
     printf("]\n");
@@ -29,9 +29,9 @@ void printingarray(u5 *array,u5 n){
 
 /************************************Reverse the given array*********************************/
 
-int reversingarray(u5 *array, u5 n)
+int reversingarray(u32 *array, u32 n)
 {
-    u5 temp;
+    u32 temp;
     for (int i = 0; i < n / 2; i++)
     {
         temp = array[i];
@@ -42,7 +42,7 @@ int reversingarray(u5 *array, u5 n)
 
 /************************To convert a Interger Number into ARRAY Format**********************/
 
-int intconverttoarray(u5 *array, u5 count, u5 n)
+int intconverttoarray(u32 *array, u32 count, u32 n)
 {
     for (int i = 0; i < count; i++)
     {
@@ -53,9 +53,9 @@ int intconverttoarray(u5 *array, u5 count, u5 n)
 
 /************************************Take a array input**************************************/
 
-int inputarray(u5 *array,u5 n)
+int inputarray(u32 *array,u32 n)
 {
-    for (u5 i = 0; i < n; i++)
+    for (u32 i = 0; i < n; i++)
     {
         printf("Enter your %d element\n",i+1);
         scanf("%d",&array[i]);
@@ -65,11 +65,11 @@ int inputarray(u5 *array,u5 n)
 
 /************************************Take a array matrix**************************************/
 
-u5 inputmatrix(u5 *matrix, u5 n, u5 m)
+u32 inputmatrix(u32 *matrix, u32 n, u32 m)
 {
     for (u5 i = 0; i < n; i++)
     {
-        for (u5 j = 0; j < m; j++)
+        for (u32 j = 0; j < m; j++)
         {
             scanf("%d", &matrix);
         }
@@ -78,10 +78,10 @@ u5 inputmatrix(u5 *matrix, u5 n, u5 m)
 
 /************************************Sum of given number**************************************/
 
-u5 sumofnnumbers(u5 a)
+u32 sumofnnumbers(u32 a)
 {
-    u5 sum = 0;
-    for (u5 i = 0; i <= a; i++)
+    u32 sum = 0;
+    for (u32 i = 0; i <= a; i++)
     {
         sum = sum + i;
     }
@@ -93,7 +93,7 @@ u5 sumofnnumbers(u5 a)
 
 /*********************************To count digits of an integer******************************/
 
-int countdigits(u5 a, u5 count)
+int countdigits(u32 a, u32 count)
 {
     do
     {
