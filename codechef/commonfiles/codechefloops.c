@@ -7,15 +7,11 @@
 2)Reverse the given array
 3)To convert a Interger Number into ARRAY Format
 4)Take a array input
-5)To count digits of an integer
-6)
+5)Take matrix input
+6)Take sum till n numbers
+7)To count digits of an integer
+8)Sum of elements of an array
 */
-
-/*------------------------------------------------------------------------------------------*/
-
-/****************************************FOR LOOPS*******************************************
-*****************************All For loops are in this section*******************************/ 
-
 
 /************************************To print the given array*********************************/ 
 
@@ -88,12 +84,9 @@ u32 sumofnnumbers(u32 a)
     return sum;
 }
 
-/*************************************do while LOOPS******************************************
-*****************************All do while loops are in this section**************************/
-
 /*********************************To count digits of an integer******************************/
 
-int countdigits(u32 a, u32 count)
+u32 countdigits(u32 a, u32 count)
 {
     do
     {
@@ -101,4 +94,16 @@ int countdigits(u32 a, u32 count)
         ++count;
     } while (a != 0);
     return count;
+}
+
+/*********************************Sum of elements of an array******************************/
+
+u32 arraysum(u32 *array, u32 n)
+{
+    u32 temp = 0;
+    for (u32 i = 0; i < n; i++)
+    {
+        temp = temp + array[i];
+    }
+    return temp;
 }
