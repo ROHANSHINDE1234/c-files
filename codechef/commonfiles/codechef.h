@@ -17,12 +17,12 @@ typedef long long int l1;
 // typedef double f64;
 
 u32 testcases();
-u32 printingarray(u5 *array,u5 n);
-u32 reversingarray(u5 *array, u5 n);
-u32 intconverttoarray(u5 *array, u5 count, u5 n);
-u32 countdigits(u5 a, u5 count);
-u32 inputarray(u5 *array,u5 n);
-u32 inputmatrix(u5 *matrix,u5 n,u5 m);
-u32 sumofnnumbers(u5 a);
+u32 printingarray(u32 *array,u32 n);
+u32 reversingarray(u32 *array, u32 n);
+u32 intconverttoarray(u32 *array, u32 count, u32 n);
+u32 countdigits(u32 a, u32 count);
+u32 inputarray(u32 *array,u32 n);
+u32 inputmatrix(u32 *matrix,u32 n,u32 m);
+u32 sumofnnumbers(u32 a);
 
 #endif
