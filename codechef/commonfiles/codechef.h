@@ -24,5 +24,6 @@ u32 countdigits(u32 a, u32 count);
 u32 inputarray(u32 *array,u32 n);
 u32 inputmatrix(u32 *matrix,u32 n,u32 m);
 u32 sumofnnumbers(u32 a);
+u32 arraysum(u32 *array, u32 n);
 
 #endif
