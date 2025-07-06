@@ -11,6 +11,7 @@
 6)Take sum till n numbers
 7)To count digits of an integer
 8)Sum of elements of an array
+9)Check if a number is repeated or not in an array
 */
 
 /************************************To print the given array*********************************/ 
@@ -106,4 +107,27 @@ u32 arraysum(u32 *array, u32 n)
         temp = temp + array[i];
     }
     return temp;
+}
+
+/*********************************Check if a number is repeated or not in an array******************************/
+
+bool checkrepeat(u32 *array,u32 n)
+{
+    for(u32 i=0;i<n;i++)
+    {
+        u32 repeat =0;
+        for(u32 j=0;j<n;j++)
+        {
+            if(array[i]==array[j])
+            {
+                repeat++;
+                if(repeat >2)
+                {
+                    return true;
+                }
+            }
+        }
+        
+    }
+    return false;
 }
