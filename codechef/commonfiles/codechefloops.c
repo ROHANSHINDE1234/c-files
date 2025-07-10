@@ -12,6 +12,8 @@
 7)To count digits of an integer
 8)Sum of elements of an array
 9)Check if a number is repeated or not in an array
+10)Swapping pairs of a string
+11)Using atbashCipher replacing A with Z & replacing a with z.
 */
 
 /************************************To print the given array*********************************/ 
@@ -130,4 +132,34 @@ bool checkrepeat(u32 *array,u32 n)
         
     }
     return false;
+}
+/*********************************Swapping pairs of a string******************************/
+
+void swapCharPairs(u1 *string, u32 n)
+{
+    for (int i = 0; i < n - 1; i = i + 2)
+    {
+        char temp = string[i];
+        string[i] = string[i + 1];
+        string[i + 1] = temp;
+    }
+}
+/*********************************Using atbashCipher replacing A with Z & replacing a with z.******************************/
+
+void atbashCipher(u1 *string,u32 n,u32 upperlower)
+{
+    if(upperlower)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            string[i] = (90 - string[i] + 65);
+        }
+    }
+    else
+    {
+        for (int i = 0; i < n; i++)
+        {
+            string[i] = (122 - string[i] + 97);
+        }
+    }
 }
