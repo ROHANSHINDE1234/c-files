@@ -137,9 +137,9 @@ bool checkrepeat(u32 *array,u32 n)
 
 void swapCharPairs(u1 *string, u32 n)
 {
-    for (int i = 0; i < n - 1; i = i + 2)
+    for (u32 i = 0; i < n - 1; i = i + 2)
     {
-        char temp = string[i];
+        u1 temp = string[i];
         string[i] = string[i + 1];
         string[i + 1] = temp;
     }
@@ -150,14 +150,14 @@ void atbashCipher(u1 *string,u32 n,u32 upperlower)
 {
     if(upperlower)
     {
-        for (int i = 0; i < n; i++)
+        for (u32 i = 0; i < n; i++)
         {
             string[i] = (90 - string[i] + 65);
         }
     }
     else
     {
-        for (int i = 0; i < n; i++)
+        for (u32 i = 0; i < n; i++)
         {
             string[i] = (122 - string[i] + 97);
         }
