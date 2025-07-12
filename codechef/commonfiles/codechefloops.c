@@ -14,6 +14,7 @@
 9)Check if a number is repeated or not in an array
 10)Swapping pairs of a string
 11)Using atbashCipher replacing A with Z & replacing a with z.
+12)Checks if the strings has same characters or not
 */
 
 /************************************To print the given array*********************************/ 
@@ -112,6 +113,8 @@ u32 arraysum(u32 *array, u32 n)
 }
 
 /*********************************Check if a number is repeated or not in an array******************************/
+// Input's required to the function - Array, Length of array
+// What it does - Iterates through two for loops and checks if the particular number is repeted or not.
 
 bool checkrepeat(u32 *array,u32 n)
 {
@@ -134,7 +137,8 @@ bool checkrepeat(u32 *array,u32 n)
     return false;
 }
 /*********************************Swapping pairs of a string******************************/
-
+// Input's required to the function - Array, Length of array
+// What it does - Swaps the charaters of the string.
 void swapCharPairs(u1 *string, u32 n)
 {
     for (u32 i = 0; i < n - 1; i = i + 2)
@@ -145,7 +149,8 @@ void swapCharPairs(u1 *string, u32 n)
     }
 }
 /*********************************Using atbashCipher replacing A with Z & replacing a with z.******************************/
-
+// Input's required to the function - Array, Length of array, Decision wether we are working withh upper case or lower case
+// What it does - swaps a with z, b with y, A with Z, B with Y, and so on
 void atbashCipher(u1 *string,u32 n,u32 upperlower)
 {
     if(upperlower)
@@ -162,4 +167,35 @@ void atbashCipher(u1 *string,u32 n,u32 upperlower)
             string[i] = (122 - string[i] + 97);
         }
     }
+}
+
+/*********************************Checks if the strings has same characters or not******************************/
+// Input's required to the function - Two Array's
+// What it does - Checks minimum difference and maximum difference that can be obtained in an array.
+void hasSameChars(u1 *string1,u1 *string2)
+{
+    u32 min=0,max=0;
+    u32 len = strlen(string1);
+    for(u32 i=0;i<len;i++)
+    {
+        if(string1[i] != string2[i])
+        {
+            if((string1[i]!='?') && (string2[i]!='?'))
+            {
+                (min)++;
+            }
+            else
+            {
+                (max)++;
+            }
+        }
+        else
+        {
+            if(string1[i]=='?')
+            {
+                (max)++;
+            }
+        }
+    }
+    printf("%d %d\n",min,(min+max));
 }
