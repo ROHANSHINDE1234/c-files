@@ -21,9 +21,7 @@
 
 void printingarray(u32 *array,u32 n){
     printf("[ ");
-    for (u32 i = 0; i < n; i++){
-        printf("%d ",array[i]);
-    }
+    for (u32 i = 0; i < n; i++) printf("%d ",array[i]);
     printf("]\n");
 }
 
@@ -55,12 +53,7 @@ int intconverttoarray(u32 *array, u32 count, u32 n)
 
 int inputarray(u32 *array,u32 n)
 {
-    for (u32 i = 0; i < n; i++)
-    {
-        printf("Enter your %d element\n",i+1);
-        scanf("%d",&array[i]);
-    }
-    
+    for (u32 i = 0; i < n; i++) scanf("%d",&array[i]);
 }
 
 /************************************Take a array matrix**************************************/
@@ -69,10 +62,8 @@ u32 inputmatrix(u32 *matrix, u32 n, u32 m)
 {
     for (u5 i = 0; i < n; i++)
     {
-        for (u32 j = 0; j < m; j++)
-        {
-            scanf("%d", &matrix);
-        }
+        for (u32 j = 0; j < m; j++) scanf("%d", &matrix);
+        
     }
 }
 
@@ -81,10 +72,7 @@ u32 inputmatrix(u32 *matrix, u32 n, u32 m)
 u32 sumofnnumbers(u32 a)
 {
     u32 sum = 0;
-    for (u32 i = 0; i <= a; i++)
-    {
-        sum = sum + i;
-    }
+    for (u32 i = 0; i <= a; i++) sum = sum + i;
     return sum;
 }
 
@@ -105,10 +93,7 @@ u32 countdigits(u32 a, u32 count)
 u32 arraysum(u32 *array, u32 n)
 {
     u32 temp = 0;
-    for (u32 i = 0; i < n; i++)
-    {
-        temp = temp + array[i];
-    }
+    for (u32 i = 0; i < n; i++) temp = temp + array[i];
     return temp;
 }
 
@@ -126,10 +111,7 @@ bool checkrepeat(u32 *array,u32 n)
             if(array[i]==array[j])
             {
                 repeat++;
-                if(repeat >2)
-                {
-                    return true;
-                }
+                if(repeat >2) return true;
             }
         }
         
@@ -155,17 +137,13 @@ void atbashCipher(u1 *string,u32 n,u32 upperlower)
 {
     if(upperlower)
     {
-        for (u32 i = 0; i < n; i++)
-        {
-            string[i] = (90 - string[i] + 65);
-        }
+        for (u32 i = 0; i < n; i++) string[i] = (90 - string[i] + 65);
+        
     }
     else
     {
-        for (u32 i = 0; i < n; i++)
-        {
-            string[i] = (122 - string[i] + 97);
-        }
+        for (u32 i = 0; i < n; i++) string[i] = (122 - string[i] + 97);
+        
     }
 }
 
@@ -180,21 +158,12 @@ void hasSameChars(u1 *string1,u1 *string2)
     {
         if(string1[i] != string2[i])
         {
-            if((string1[i]!='?') && (string2[i]!='?'))
-            {
-                (min)++;
-            }
-            else
-            {
-                (max)++;
-            }
+            if((string1[i]!='?') && (string2[i]!='?')) (min)++;
+            else (max)++;
         }
         else
         {
-            if(string1[i]=='?')
-            {
-                (max)++;
-            }
+            if(string1[i]=='?') (max)++;
         }
     }
     printf("%d %d\n",min,(min+max));
