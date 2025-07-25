@@ -29,6 +29,6 @@ bool checkrepeat(u32 *array,u32 n);
 void swapCharPairs(u1 *string, u32 n); // swapping pairs of an string
 void atbashCipher(u1 *string,u32 n,u32 upperlower); // If upper case letter ten upperlower=1 & if lowercase letter keep it as 0
 void hasSameChars(u1 *string1,u1 *string2); // Checks if the string has same set of characters or not
-
+bool isPrime(l1 num); // Finds if the number is prime or not
 
 #endif
