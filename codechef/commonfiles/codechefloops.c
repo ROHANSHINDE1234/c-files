@@ -15,6 +15,7 @@
 10)Swapping pairs of a string
 11)Using atbashCipher replacing A with Z & replacing a with z.
 12)Checks if the strings has same characters or not
+13) Checks if the number is prime or not
 */
 
 /************************************To print the given array*********************************/ 
@@ -167,4 +168,16 @@ void hasSameChars(u1 *string1,u1 *string2)
         }
     }
     printf("%d %d\n",min,(min+max));
+}
+/*********************************Checks if the number is prime or not******************************/
+// What it does - takes a number into it and then iterates manually to check if the number is prime or not
+bool isPrime(l1 num)
+{
+    if (num <= 1) return false;
+    
+    for (l1 i = 2; i <= sqrt(num); i++)
+    {
+        if (num % i == 0) return false;
+    }
+    return true;
 }
